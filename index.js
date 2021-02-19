@@ -4,13 +4,13 @@ var randomPickPlayer1 = Math.floor(Math.random() * 6);
 var randomPickPlayer2 = Math.floor(Math.random() * 6);
 
 if (randomPickPlayer1 > randomPickPlayer2) {
-  document.querySelector("h1").textContent = "🚩 Player 1 Wins";
+  document.querySelector("h1").textContent = "Player 1 Wins 🎆";
   displayDice(randomPickPlayer1, randomPickPlayer2);
 } else if (randomPickPlayer2 > randomPickPlayer1) {
-  document.querySelector("h1").textContent = "🚩 Player 2 Wins";
+  document.querySelector("h1").textContent = "Player 2 Wins 🎇";
   displayDice(randomPickPlayer1, randomPickPlayer2)
 } else {
-  document.querySelector("h1").textContent = "It's A Draw!";
+  document.querySelector("h1").textContent = "It's A Draw! 🤝";
   displayDice(randomPickPlayer1, randomPickPlayer2);
 }
 

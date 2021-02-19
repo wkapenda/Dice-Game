@@ -11,21 +11,30 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: #fbaccc;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Kaushan Script', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #4a47a3;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  color: #314e52;
+  font-family: 'Orbitron', sans-serif;
+}
+
+button {
+  margin-top: 4rem;
+  font-family: 'Reggae One', cursive;
+  font-size: 2rem;
+  border-radius: 5%;
+  background-color: #16c79a;
+  color: white;
 }
 
 img {
@@ -33,9 +42,9 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 20%;
   color: #EEEEEE;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Orbitron', sans-serif;
 
 }
