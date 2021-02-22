@@ -1,0 +1,26 @@
+{
+  "name": "dice-game",
+  "version": "1.0.0",
+  "description": "\"Two player dice game\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkapenda/Dice-Game.git"
+  },
+  "author": "Willem Kapenda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wkapenda/Dice-Game/issues"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "homepage": "https://github.com/wkapenda/Dice-Game#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
